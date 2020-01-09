@@ -1,0 +1,2 @@
+update crm_lead set won_status='won', date_closed=date_deadline, probability=100,expected_revenue=planned_revenue   where lost_reason=11;
+
